@@ -1,0 +1,24 @@
+.card {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 6px;
+  padding: 6px;
+  list-style-type: none;
+  &__info {
+    min-height: 102px;
+    background-color: #410069;
+    padding: 18px 6px 18px 18px;
+    &--name {
+      padding-bottom: 3px;
+    }
+  }
+  &__img {
+    width: 100%;
+  }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,7 @@
+.detailLink {
+  line-height: 4em;
+  margin-right: -80%;
+  @media all and (max-width: 767px) {
+    margin-right: -50%;
+  }
+}
