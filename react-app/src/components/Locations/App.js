@@ -76,11 +76,11 @@ function App() {
             <Header renderUnfilteredList={renderUnfilteredList} />
             <main>
                 <Switch>
-                    <Route exact path="/location">
+                    <Route exact path="/locations">
                         <Filter handleFilter={handleFilter} />
                         <LocationList filteredLocations={filteredLocations} />
                     </Route>
-                    <Route path="/location/:id" render={renderLocationDetail} />
+                    <Route path="/locations/:id" render={renderLocationDetail} />
                 </Switch>
             </main>
             <Footer />

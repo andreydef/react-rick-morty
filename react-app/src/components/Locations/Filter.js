@@ -24,9 +24,7 @@ const Filter = (props) => {
                 autoFocus
             />
             <div className="selectWrapper">
-                <label className="label" htmlFor="type">
-                    Type
-        </label>
+                <label className="label" htmlFor="type">Type</label>
                 <select
                     className="select"
                     name="type"
@@ -39,9 +37,7 @@ const Filter = (props) => {
                     <option value="Microverse">Microverse</option>
                     <option value="Resort">Resort</option>
                 </select>
-                <label className="label" htmlFor="dimension">
-                    Dimension
-        </label>
+                <label className="label" htmlFor="dimension">Dimension</label>
                 <select
                     className="select"
                     name="dimension"

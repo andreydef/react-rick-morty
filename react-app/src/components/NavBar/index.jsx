@@ -4,9 +4,9 @@ import './index.css';
 
 function NavBar() {
   return (
-    <div class="topnav">
+    <div className="topnav">
       <a href="/">Characters</a>
-      <a href="/location">Locations</a>
+      <a href="/locations">Locations</a>
       <a href="/episodes">Episodes</a>
     </div>
   );

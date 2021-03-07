@@ -4,7 +4,7 @@ import "../../stylesheets/_BackToListLink.scss";
 const BackToListLink = () => {
     return (
         <Link
-            to="/locations"
+            to="/episodes"
             className="detailLink"
             aria-label="Go back to list"
             title="Go back to list"

@@ -43,12 +43,13 @@ export const getEpisodesFromAPI = () => {
   )
     .then((response) => response.json())
     .then((data) => {
-      return data.results.map((episode) => {
+      return data.results.map((result) => {
         return {
-          name: episode.name,
-          id: episode.id,
-          episode: episode.episode,
-          characters: episode.characters.length
+          name: result.name,
+          id: result.id,
+          air_date: result.air_date,
+          episode: result.episode,
+          characters: result.characters.length
         };
       });
     });
