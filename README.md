@@ -4,7 +4,7 @@ Create React.js application with Rick and Morty API https://rickandmortyapi.com/
 [![License](https://img.shields.io/github/license/robertoszek/pleroma-bot)](https://github.com/andreydef/react-rick-morty/blob/main/README.md)
 
 #
-### I created an application that allows you to work with the ready open API Rick and Morty (https://rickandmortyapi.com/api) using the REST API in the project on React.js. The application has a convenient navigation that allows you to switch between the pages characters, locations, episodes, which display information from the Rick and Morty API. Also, implemented filtering with text and with ready-made options for all objects on the site. 
+I created an application that allows you to work with the ready open API Rick and Morty (https://rickandmortyapi.com/api) using the REST API in the project on React.js. The application has a convenient navigation that allows you to switch between the pages characters, locations, episodes, which display information from the Rick and Morty API. Also, implemented filtering with text and with ready-made options for all objects on the site. 
 
 #
 ## Development
