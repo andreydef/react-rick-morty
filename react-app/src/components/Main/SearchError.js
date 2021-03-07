@@ -10,7 +10,7 @@ const SearchError = () => {
         className="errorImg"
       />
       <p className="noResultMessage">
-        Sorry, your search did not match any character in our list.
+        Sorry, your search did not match any data in our list.
       </p>
     </>
   );

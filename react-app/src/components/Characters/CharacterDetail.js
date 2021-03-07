@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 import StatusIcon from "./StatusIcon";
 import BackToListLink from "./BackToListLink";
-import RouteError from "./RouteError";
+import RouteError from "../Main/RouteError";
 
 import "../../stylesheets/_CharacterDetail.scss";
 

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import SearchError from "./SearchError";
+import SearchError from "../Main/SearchError";
 import CharacterCard from "./CharacterCard";
 
 import "../../stylesheets/_CharacterList.scss";

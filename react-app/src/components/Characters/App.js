@@ -1,11 +1,12 @@
 import { React, useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Header from "./Header";
 import Filter from "./Filter";
 import CharacterList from "./CharacterList";
 import CharacterDetail from "./CharacterDetail";
-import Footer from "./Footer";
+
+import Footer from "../Main/Footer";
+import Header from "../Main/Header";
 import NavBar from '../NavBar/index'
 
 import "../../stylesheets/_App.scss";
@@ -79,7 +80,7 @@ function App() {
             <Filter handleFilter={handleFilter} />
             <CharacterList filteredChars={filteredChars} />
           </Route>
-          <Route exact path="/char/:id" render={renderCharDetail} />
+          <Route path="/char/:id" render={renderCharDetail} />
         </Switch>
       </main>
       <Footer />
